@@ -199,8 +199,11 @@ participants with interior estimates.
 This distinction is important: successful numerical optimization does not
 necessarily imply that a behavioral parameter is precisely identified.
 
+## Author: Rubin Chang
+
 ## Repository Structure
 
+```text
 delay-discounting-analysis/
 ├── data/
 │   ├── raw/                 # Local raw datasets; excluded from Git
@@ -225,31 +228,3 @@ The project is implemented in Python using:
 - Matplotlib
 - SciPy
 - Jupyter
-Participant parameters are estimated by maximizing the likelihood of observed
-binary choices. Positive parameters are optimized in log space using bounded
-numerical optimization.
-
-Predictive performance is evaluated using participant-level five-fold
-cross-validation, classification accuracy, binary log loss, majority-choice
-baselines, and participant-level bootstrap confidence intervals.
-
-Create and activate a Python environment, then install the project
-dependencies: pip install -r requirements.txt
-
-The model is intentionally simple. It assumes hyperbolic temporal discounting
-and a logistic mapping from subjective-value differences to choice
-probabilities.
-
-Participant-level parameter estimates can also be difficult to identify when
-choice patterns contain little information about one or both parameters.
-Boundary estimates were therefore treated separately in individual-differences
-analyses.
-
-The cognitive analyses are correlational and do not establish causal effects
-of working memory, numeracy, or age on intertemporal choice.
-
-Future extensions could compare hyperbolic discounting against alternative
-models such as exponential discounting, incorporate hierarchical parameter
-estimation, or examine additional cognitive and psychological measures.
-
-Author: Rubin Chang
