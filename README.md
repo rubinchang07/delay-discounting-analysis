@@ -201,7 +201,6 @@ necessarily imply that a behavioral parameter is precisely identified.
 
 ## Repository Structure
 
-```text
 delay-discounting-analysis/
 ├── data/
 │   ├── raw/                 # Local raw datasets; excluded from Git
