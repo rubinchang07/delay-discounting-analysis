@@ -22,11 +22,14 @@ dataset are named `ss_time` and `ll_time`.
 ## AgeRisk (notebook 08)
 
 ## Source: (citation and OSF link)
-Pongratz, H., & Schoemann, M. (2026). A large-scale dataset of choice and
-response-time data in intertemporal choice. *Scientific Data, 13*, 323.
-https://doi.org/10.1038/s41597-026-06947-4
+Tisdall, L., Mugume, S., Kellen, D., & Mata, R. (2024).
+Lifespan trajectories of risk preference, impulsivity, and self-control:
+A dataset containing self-report, informant-report, behavioral, hormone and
+functional neuroimaging measures from a cross-sectional human sample.
+*Data in Brief, 52*, 109968.
+https://doi.org/10.1016/j.dib.2023.109968
 
-https://osf.io/3wsae/
+https://osf.io/sh34n/
 
 Place the files like this:
 
