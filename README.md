@@ -173,10 +173,17 @@ $$
 r = -0.290,\quad p < .001
 $$
 
+Among the 179 participants with interior parameter estimates, higher numeracy
+was also associated with a lower estimated discount rate:
+
+$$
+r = -0.162,\quad p = .030
+$$
+
 and with somewhat greater estimated choice sensitivity:
 
 $$
-r = 0.176,\quad p = .028
+r = 0.178,\quad p = .017
 $$
 
 The relationship between numeracy and smaller-sooner choice behavior remained
@@ -194,9 +201,9 @@ older participants tended to score lower on both numeracy and working memory.
 Participant-level parameters were not equally well identified for every
 participant.
 
-In the AgeRisk analysis, all 200 optimization procedures converged, but 43
+In the AgeRisk analysis, all 200 optimization procedures converged, but 21
 participants had at least one estimate at an optimization boundary.
-Parameter-based cognitive analyses therefore focused primarily on the 157
+Parameter-based cognitive analyses therefore focused primarily on the 179
 participants with interior estimates.
 
 This distinction is important: successful numerical optimization does not
