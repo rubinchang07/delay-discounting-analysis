@@ -1,14 +1,52 @@
 # Data
 
-The raw Intertemporal Choice Database is not included in this repository.
+Raw datasets are not included in this repository. Download them and place
+them in `data/raw/` as shown below.
 
-Source:
-Pongratz & Schoemann, Intertemporal Choice Database
+## Intertemporal Choice Database (notebooks 05–07)
 
-Download the dataset from the project's OSF repository and place:
+Pongratz, H., & Schoemann, M. (2026). *A large-scale dataset of choice and
+response-time data in intertemporal choice*. Scientific Data, 13, 323.
+https://doi.org/10.1038/s41597-026-06947-4
 
-all_data.csv
+Download `all_data.csv` from the project's OSF repository (OSF link: TODO)
+and place it at:
 
-Inside:
+```text
+data/raw/all_data.csv
+```
 
-data/raw/
+The analyses use the `Becker_2023_Exp1` study. Delay columns in this
+dataset are named `ss_time` and `ll_time`.
+
+## AgeRisk (notebook 08)
+
+## Source: (citation and OSF link)
+Tisdall, L., Mugume, S., Kellen, D., & Mata, R. (2024).
+Lifespan trajectories of risk preference, impulsivity, and self-control:
+A dataset containing self-report, informant-report, behavioral, hormone and
+functional neuroimaging measures from a cross-sectional human sample.
+*Data in Brief, 52*, 109968.
+https://doi.org/10.1016/j.dib.2023.109968
+
+https://osf.io/sh34n/
+
+Place the files like this:
+
+```text
+data/raw/agerisk/
+├── delay_discounting/                 # one *_DelayDiscounting.csv per participant
+├── automated_operation_span.csv
+├── demographics.csv
+├── numeracy.csv
+└── participants_key.csv
+```
+
+## Processed outputs
+
+Notebooks write participant-level results to `data/processed/`:
+
+| File | Written by | Used by |
+| --- | --- | --- |
+| `becker_2023_parameters.csv` | 05 | 07 |
+| `cross_validation_results.csv` | 06 | 07 |
