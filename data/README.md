@@ -21,7 +21,12 @@ dataset are named `ss_time` and `ll_time`.
 
 ## AgeRisk (notebook 08)
 
-Source: TODO (citation and OSF link)
+## Source: (citation and OSF link)
+Pongratz, H., & Schoemann, M. (2026). A large-scale dataset of choice and
+response-time data in intertemporal choice. *Scientific Data, 13*, 323.
+https://doi.org/10.1038/s41597-026-06947-4
+
+https://osf.io/3wsae/
 
 Place the files like this:
 
